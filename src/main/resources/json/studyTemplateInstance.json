@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "studyName": "https://schema.metadatacenter.net/properties/studyName",
+    "disease": "https://schema.metadatacenter.net/properties/disease",
+    "organism": "https://schema.metadatacenter.net/properties/organism",
+    "institution": "https://schema.metadatacenter.net/properties/institution",
+    "publication": "https://schema.metadatacenter.net/properties/publication"
+  },
+  "studyName": {
+    "@value": "SDY232"
+  },
+  "disease": {
+    "@value": "http://www.ebi.ac.uk/efo/EFO_0004144"
+  },
+  "organism": {
+    "@value": "http://purl.bioontology.org/ontology/STY/T194"
+  },
+  "institution": {
+    "@context": {
+      "pav": "http://purl.org/pav/",
+      "oslc": "http://open-services.net/ns/core#",
+      "institutionName": "https://schema.metadatacenter.net/properties/institutionName",
+      "address": "https://schema.metadatacenter.net/properties/address"
+    },
+    "institutionName": {
+      "@value": "Stanford"
+    },
+    "address": {
+      "@context": {
+        "pav": "http://purl.org/pav/",
+        "oslc": "http://open-services.net/ns/core#",
+        "address1": "https://schema.metadatacenter.net/properties/address1",
+        "address2": "https://schema.metadatacenter.net/properties/address2",
+        "town": "https://schema.metadatacenter.net/properties/town",
+        "zIP/PostalCode": "https://schema.metadatacenter.net/properties/zIP/PostalCode",
+        "country": "https://schema.metadatacenter.net/properties/country"
+      },
+      "address1": {
+        "@value": "MSOB"
+      },
+      "address2": {
+        "@value": null
+      },
+      "town": {
+        "@value": "Stanford"
+      },
+      "zIP/PostalCode": {
+        "@value": "94035"
+      },
+      "country": {
+        "@value": "USA"
+      }
+    }
+  },
+  "publication": [
+    {
+      "@context": {
+        "pav": "http://purl.org/pav/",
+        "oslc": "http://open-services.net/ns/core#",
+        "title": "https://schema.metadatacenter.net/properties/title",
+        "author": "https://schema.metadatacenter.net/properties/author",
+        "f0c5a025-6268-4ab3-8fda-4a35e983f2c6": "https://schema.metadatacenter.net/properties/f0c5a025-6268-4ab3-8fda-4a35e983f2c6",
+        "publicationType": "https://schema.metadatacenter.net/properties/publicationType",
+        "publicationTitle": "https://schema.metadatacenter.net/properties/publicationTitle",
+        "b5d88d57-e498-4bc7-ac4e-d15fbbe8c070": "https://schema.metadatacenter.net/properties/b5d88d57-e498-4bc7-ac4e-d15fbbe8c070",
+        "yearPublished": "https://schema.metadatacenter.net/properties/yearPublished"
+      },
+      "title": {
+        "@value": "A paper"
+      },
+      "author": [
+        {
+          "@value": "An author"
+        }
+      ],
+      "publicationType": {},
+      "publicationTitle": {
+        "@value": "A journal"
+      },
+      "yearPublished": {
+        "@value": "1988"
+      }
+    }
+  ],
+  "schema:isBasedOn": "https://repo.metadatacenter.net/templates/560b90bc-b598-415c-be89-77e42899be79",
+  "schema:name": "Study metadata",
+  "schema:description": "A study metadata",
+  "pav:createdOn": "2016-10-06T15:43:35-0700",
+  "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
+  "pav:lastUpdatedOn": "2016-10-06T15:43:35-0700",
+  "oslc:modifiedBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
+  "@id": "https://repo.metadatacenter.net/template-instances/7258d603-5c86-41ae-bb31-03a4ba0dffd3"
+}
