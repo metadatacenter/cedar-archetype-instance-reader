@@ -1,5 +1,5 @@
 CEDAR Archetype Instance Reader
-==================================
+===============================
 
 Minimal Java project that uses [jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) to generate Java classes 
 that can read instances of CEDAR templates.
@@ -18,6 +18,8 @@ To build this library you must have the following items installed:
 + [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 + A tool for checking out a [Git](http://git-scm.com/) repository.
 + Apache's [Maven](http://maven.apache.org/index.html).
+
+First build the [CEDAR parent project](https://github.com/metadatacenter/cedar-parent).
 
 Get a copy of the latest code:
 

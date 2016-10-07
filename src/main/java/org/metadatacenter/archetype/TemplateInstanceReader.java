@@ -6,6 +6,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Take a jsonschema2pojo-generated Java class generated from a CEDAR template and read a template instance
+ * conforming to that template.
+ */
 public class TemplateInstanceReader
 {
   public static void main(String[] argc) throws IOException
@@ -14,8 +18,6 @@ public class TemplateInstanceReader
     File studyTemplateInstanceJSONFile = new File(
       TemplateInstanceReader.class.getClassLoader().getResource("./json/studyTemplateInstance.json").getFile());
 
-    // Create an object of the jsonschema2pojo-generated StudyTemplate class using the contents of the
-    // a file containing an instance of that template.
     StudyTemplate study = mapper.readValue(studyTemplateInstanceJSONFile, StudyTemplate.class);
 
     System.out.println("Study name: " + study.getStudyName().getValue());
@@ -36,9 +38,8 @@ public class TemplateInstanceReader
     for (Publication publication : publications) {
       System.out.println("Title: " + publication.getPublicationTitle().getValue());
       List<Author> authors = publication.getAuthor();
-      for (Author author : authors) {
+      for (Author author : authors)
         System.out.println("Author: " + author.getValue());
-      }
 
       System.out.println("Publication Type: " + publication.getPublicationType().getValue());
       System.out.println("Year Published: " + publication.getYearPublished().getValue());
