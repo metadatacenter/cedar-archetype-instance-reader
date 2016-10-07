@@ -9,7 +9,7 @@
 
   <groupId>org.metadatacenter</groupId>
   <artifactId>cedar-archetype-instance-reader</artifactId>
-  <version>0.8.2</version>
+  <version>0.8.3-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Minimal Java project that uses jsonschema2pojo to generate Java classes to read CEDAR JSON Schema-based template instances</name>
 
@@ -17,7 +17,7 @@
     <connection>scm:git:git@github.com:metadatacenter/cedar-archetype-instance-reader.git</connection>
     <developerConnection>scm:git:git@github.com:metadatacenter/cedar-archetype-instance-reader.git</developerConnection>
     <url>https://github.com/metadatacenter/cedar-archetype-instance-reader</url>
-    <tag>release-0.8.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
