@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.metadatacenter</groupId>
     <artifactId>cedar-parent</artifactId>
-    <version>1.6.3</version>
+    <version>1.6.4-SNAPSHOT</version>
   </parent>
 
   <groupId>org.metadatacenter</groupId>
   <artifactId>cedar-archetype-instance-reader</artifactId>
-  <version>1.6.3</version>
+  <version>1.6.4-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Minimal Java project that uses jsonschema2pojo to generate Java classes to read CEDAR JSON Schema-based template instances</name>
 
