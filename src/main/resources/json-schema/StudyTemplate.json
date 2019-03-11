@@ -666,7 +666,7 @@
                             "address1",
                             "address2",
                             "town",
-                            "zIP/PostalCode",
+                            "ZIPPostalCode",
                             "country"
                         ]
                     },
@@ -703,9 +703,9 @@
                                         "https://schema.metadatacenter.net/properties/town"
                                     ]
                                 },
-                                "zIP/PostalCode": {
+                                "ZIPPostalCode": {
                                     "enum": [
-                                        "https://schema.metadatacenter.net/properties/zIP/PostalCode"
+                                        "https://schema.metadatacenter.net/properties/ZIPPostalCode"
                                     ]
                                 },
                                 "country": {
@@ -724,7 +724,7 @@
                                 "address1",
                                 "address2",
                                 "town",
-                                "zIP/PostalCode",
+                                "ZIPPostalCode",
                                 "country"
                             ],
                             "additionalProperties": false
@@ -1057,7 +1057,7 @@
                             "@id": "https://repo.metadatacenter.net/template-fields/fcea7387-614b-4b2a-9317-08033cc12be5",
                             "$schema": "http://json-schema.org/draft-04/schema#"
                         },
-                        "zIP/PostalCode": {
+                        "ZIPPostalCode": {
                             "@type": "https://schema.metadatacenter.org/core/TemplateField",
                             "@context": {
                                 "schema": "http://schema.org/",

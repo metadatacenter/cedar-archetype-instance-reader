@@ -35,7 +35,7 @@
         "address1": "https://schema.metadatacenter.net/properties/address1",
         "address2": "https://schema.metadatacenter.net/properties/address2",
         "town": "https://schema.metadatacenter.net/properties/town",
-        "zIP/PostalCode": "https://schema.metadatacenter.net/properties/zIP/PostalCode",
+        "ZIPPostalCode": "https://schema.metadatacenter.net/properties/ZIPPostalCode",
         "country": "https://schema.metadatacenter.net/properties/country"
       },
       "address1": {
@@ -47,7 +47,7 @@
       "town": {
         "@value": "Stanford"
       },
-      "zIP/PostalCode": {
+      "ZIPPostalCode": {
         "@value": "94035"
       },
       "country": {
