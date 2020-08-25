@@ -14,10 +14,9 @@
   <name>Minimal Java project that uses jsonschema2pojo to generate Java classes to read CEDAR JSON Schema-based template instances</name>
 
   <scm>
-    <connection>scm:git:git@github.com:metadatacenter/cedar-archetype-instance-reader.git</connection>
-    <developerConnection>scm:git:git@github.com:metadatacenter/cedar-archetype-instance-reader.git</developerConnection>
+    <connection>scm:git:https://github.com/metadatacenter/cedar-archetype-instance-reader.git</connection>
+    <developerConnection>scm:git:https://github.com/metadatacenter/cedar-archetype-instance-reader.git</developerConnection>
     <url>https://github.com/metadatacenter/cedar-archetype-instance-reader</url>
-    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
